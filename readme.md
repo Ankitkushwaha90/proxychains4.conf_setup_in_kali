@@ -1,5 +1,10 @@
 ### /etc/proxychains4.conf
-
+```bash
+sudo systemctl start tor
+```
+```bash
+sudo system status tor
+```
 ```bash
 # proxychains.conf  VER 4.x
 #
