@@ -3,7 +3,17 @@
 sudo systemctl start tor
 ```
 ```bash
-sudo system status tor
+sudo systemctl status tor
+````
+```bash
+sudo apt install proxychains
+```
+```bash
+sudo systemctl start proxychains
+```
+
+```bash
+sudo systemctl status proxychains
 ```
 ```bash
 # proxychains.conf  VER 4.x
